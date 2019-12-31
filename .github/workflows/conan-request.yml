@@ -1,0 +1,14 @@
+name: Conan Request
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Minimonium/conan-request-action@master
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          packageName: conan-request-test
