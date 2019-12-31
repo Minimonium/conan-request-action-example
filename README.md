@@ -1,2 +1,7 @@
-# conan-request-action-example
-An example of how to use the https://github.com/Minimonium/conan-request-action
+# Conan Request Action Example
+
+An example of how to use the [Conan Request Action](https://github.com/Minimonium/conan-request-action).
+
+## LICENSE
+
+[MIT](LICENSE)
